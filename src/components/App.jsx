@@ -39,7 +39,8 @@ export const App = () => {
     }
   };
 
-  const options = ['good', 'neutral', 'bad'];
+  // const options = ['good', 'neutral', 'bad'];
+  const options = Object.keys({ good, neutral, bad });
 
   return (
     <Box
